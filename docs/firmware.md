@@ -27,7 +27,7 @@ You can check your current firmware version using **Solaar**:
 ## How to Update
 Logitech does not provide a Linux-native firmware updater. To update to 038:
 1. Connect your Unifying Receiver to a **Windows** machine.
-2. Download the very specific (I've tried more recent versions and those didn't work) [Logitech SetPoint6.69.126_64.exe](https://fichiers.toutlesdrivers.com/61086/SetPoint6.69.126_64.exe) software from the reputable (IMHO) French site ToutLesDrivers.com (All The Drivers!). 
+2. Download the very specific (I've tried more recent versions and those didn't work) [Logitech SetPoint6.69.126_64.exe](https://www.touslesdrivers.com/index.php?v_page=23&v_code=61086) software from the reputable (IMHO) French site ToutLesDrivers.com (All The Drivers!).the link is at the floppy disk picture, this will pop up the link page (as seen in step 4). Chose their local mirror as the Logitech link has been deprecated by Logitech.  
 3. Earlier versions will not have the 038 firmware update, older versions will not let the firmware update to take place (in my personal experience)
 4. See [this](SetpointDownloadDetails.png) to visually see the file that I got from them and its digital signature from Logitech (always validate this).
 5. Install this version while making sure to uninstall any other versions newer or older prior to that. When installed do resist the temptation to install updates to this software.
