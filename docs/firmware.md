@@ -43,6 +43,6 @@ Logitech does not provide a Linux-native firmware updater. To update to 038:
 
 
 ## References used while researching how to update:
- A github gist by [David Ruhmann](https://github.com/davidruhmann) aptly named [Logitech T650 on Windows 10](https://gist.github.com/davidruhmann/9674f90794790ce419430ab3b45054b3) which helped me to narrow down the specific SetPoint version that would work to update the firmware,although the logitech have died since,it gave me a good start researching how to successfully upgrade the firmware from 033 to 038!
+ A github gist by [David Ruhmann](https://github.com/davidruhmann) aptly named [Logitech T650 on Windows 10](https://gist.github.com/davidruhmann/9674f90794790ce419430ab3b45054b3) which helped me to narrow down the specific SetPoint version that would work to update the firmware,although the Logitech links have died since then,it gave me a good start researching how to successfully upgrade the firmware from 033 to 038!
  
 
