@@ -29,12 +29,12 @@ Logitech does not provide a Linux-native firmware updater. To update to 038:
 1. Connect your Unifying Receiver to a **Windows** machine.
 2. Download the very specific (I've tried more recent versions and those didn't work) [Logitech SetPoint6.69.126_64.exe](https://fichiers.toutlesdrivers.com/61086/SetPoint6.69.126_64.exe) software from the reputable (IMHO) French site ToutLesDrivers.com (All The Drivers!). 
 3. Earlier versions will not have the 038 firmware update, older versions will not let the firmware update to take place (in my personal experience)
-4. See `SetpointDownloadDetails.png` to visually see the file that I got from them and its digital signature from Logitech (always validate this).
+4. See [this](SetpointDownloadDetails.png) to visually see the file that I got from them and its digital signature from Logitech (always validate this).
 5. Install this version while making sure to uninstall any other versions newer or older prior to that. When installed do resist the temptation to install updates to this software.
 6. Make sure that the T650 is recharged to full and **not plugged in** to the usb cable used to recharge the device otherwise a **Waiting for the device to finish charging** message will appear as you press the **update firmware** button
 7. Ensure the T650 is paired and turned on and proceed to run the **Mouse and Keyboard Settings** software once installed.
 8. When started SetPoint defaults to Tools Settings Information Resources the round I icon on top left. We need to click on the third icon (with the unify sun logo) Unify settings and Click on the Open Unifying Software button.
-9. Look at the `SetPointUnifyingDetail01.png` `SetPointUnifyingDetail02.png` and `SetPointUnifyingDetail03.png` to see the steps visually before we continue.
+9. Look at [step8a](SetPointUnifyingDetail01.png), [step8b](SetPointUnifyingDetail02.png) and [step10](SetPointUnifyingDetail03.png) to see this visually before you go ahead.
 10. Next we need to click on advanced, select TouchPad T650 from the list and apply the 038 patch by pressing the Update Firmware button.
 11. It will ask to turn off and on the T650 and will display a **Do not Turn off** message while a tiny progress bar appears for a few seconds.
 12. Then when process is complete! You should see the firmware updated to 041.001.00038 if not (only after the firmware complete message appears) turn off and on once more. Congrats!
