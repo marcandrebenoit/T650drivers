@@ -7,7 +7,7 @@ This method leverages the HID++ notifications the T650 sends once it is in "Raw 
 - **Solaar** installed (`sudo apt install solaar`).
 - T650 must be in "Advanced" mode (Unlock Key A must have been sent).
 
-## Step-by-Step Rule Setup
+## Step-by-Step Rule Setup (see all steps images in folder)
 1. Open the **Solaar Rule Editor**.
 2. Create a new **User-defined rule**.
 3. **Condition:** Add a `Feature` condition  and select `TOUCHPAD RAW XY` or just copy and paste it if you don't see it in the list. (6100) might be added after the command,this is a non-issue.
