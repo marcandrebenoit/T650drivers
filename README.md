@@ -48,7 +48,7 @@ sudo python3 tools/finger_diagnostic.py
 If successful, you will see a live update of 5-finger coordinates (X, Y) and the active contact bitmask.
 
 ## 5. OS Implementation Status
-### [Linux (Ubuntu 24.04+)](docs/linux_solaar.md)
+### [Linux (Ubuntu 24.04+)](docs/linux_solaar.md) (work in progress,3 fingers click gesture working)
 The T650 can be "tricked" into native mode. By sending the unlock command and power-cycling the device, the kernel re-enumerates it as a Precision Touchpad, enabling the native GNOME Touchpad settings panel.
 
 ### [Windows 10/11](docs/windows_setup.md) (work in progress) 
