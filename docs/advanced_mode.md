@@ -48,7 +48,7 @@ To automate this, see `drivers/linux/udev_rules.md` to trigger the unlock script
 * On some custom setups or different receivers (like the newer Logi Bolt), this index might differ, but for the standard Unifying Receiver, it is consistently 2.
 
 ### Is Interface 2 universal?
-For the Logitech Unifying Receiver usb dongle speicifically, the answer is yes,but it might differ on the Logi Bolt for example.
+For the Logitech Unifying Receiver usb dongle speicifically, the answer is yes,but it might differ on the Logi Bolt for example  .
 
 When you plug this specific receiver into any computer, it presents itself as a single physical USB device that contains three logical interfaces:
 * Interface 0: Standard Keyboard emulation (so the BIOS/OS can see a basic keyboard).
