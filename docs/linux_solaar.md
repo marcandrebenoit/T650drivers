@@ -10,7 +10,7 @@ This method leverages the HID++ notifications the T650 sends once it is in "Raw 
 ## Step-by-Step Rule Setup
 1. Open the **Solaar Rule Editor**.
 2. Create a new **User-defined rule**.
-3. **Condition:** Add a `Feature` condition and select `TOUCHPAD RAW XY` or just copy and paste it if you don't see it in the list. (6100) might be added after the command,this is a non-issue.
+3. **Condition:** ![Add a `Feature` condition] {linux_solaar.Step-by-Step.01.png} and select `TOUCHPAD RAW XY` or just copy and paste it if you don't see it in the list. (6100) might be added after the command,this is a non-issue. {}
 4. **Bit Test (Test Bytes):** - This targets the "Contact Mask" byte to detect multiple fingers.
    - **Begin (inclusive):** `0`
    - **End (exclusive):** `1`
