@@ -48,3 +48,7 @@ if is_3_fingers:
     # Calculate Delta
     if (avg_y - start_y) < -threshold:
         trigger("Win+Tab")
+
+5. Troubleshooting
+​Mouse Jams: If the Super key gets stuck, tap it once on your physical keyboard to send the release signal.
+​KVM USB: This implementation is designed for host-level access. Virtualized USB stacks may drop high-frequency reports.
