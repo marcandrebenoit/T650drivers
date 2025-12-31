@@ -4,7 +4,7 @@ On Linux, the most stable way to implement 3+ finger gestures without writing cu
 This method leverages the HID++ notifications the T650 sends once it is in "Raw Mode."
 
 ## Prerequisites
-- **Solaar** installed (`sudo apt install solaar`).
+- [**Solaar**](https://github.com/pwr-Solaar/Solaar) installed (Ubuntu: `sudo apt install solaar`).
 - T650 must be in "Advanced" mode (Unlock Key A must have been sent).
 
 ## Step-by-Step Rule Setup (see all steps images in folder)
