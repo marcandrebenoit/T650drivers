@@ -57,4 +57,4 @@ Kernel Locking: Sometimes the hid-logitech-dj driver prevents user-space scripts
 
 Reboot Persistence: The "Unlock" command is volatile and must be re-sent after a device power cycle or system reboot. Use the provided udev rules to automate this.
 
-## Disclaimer: This project is an independent research effort and is not affiliated with Logitech.
+### _Disclaimer: This project is an independent research effort and is not affiliated with Logitech._
