@@ -2,7 +2,7 @@
 
 This repository provides the research, diagnostic tools, and driver implementation required to unlock the full 5-finger multi-touch capabilities of the Logitech T650 Rechargeable Touchpad on modern operating systems (Linux and Windows 10/11).
 > [!IMPORTANT]
-> Your T650 needs to be at [firmware 038 to use this](/docs/firmware.md#why-firmware-04100100038-is-required) anything earlier will not work.
+> Your T650 needs to be at [firmware 041.001.00038 to use this](/docs/firmware.md#why-firmware-04100100038-is-required) anything earlier will not work.
 > Firmware 038 is the only firmware version supporting HID++ 2.0. 
 
 
