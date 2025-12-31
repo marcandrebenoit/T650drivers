@@ -48,16 +48,17 @@ sudo python3 tools/finger_diagnostic.py
 If successful, you will see a live update of 5-finger coordinates (X, Y) and the active contact bitmask.
 
 ## 5. OS Implementation Status
-### Linux (Ubuntu 24.04+)
+### [Linux (Ubuntu 24.04+)](docs/linux_solaar.md)
 The T650 can be "tricked" into native mode. By sending the unlock command and power-cycling the device, the kernel re-enumerates it as a Precision Touchpad, enabling the native GNOME Touchpad settings panel.
 
-### Windows 10/11
+### [Windows 10/11](docs/windows_setup.md) (work in progress) 
 Work is ongoing to implement a user-space driver that translates raw HID++ packets into Windows Precision Touchpad (PTP) events or virtual keyboard/mouse shortcuts for gestures.
 
 ## 6. Known Issues & Troubleshooting
 Kernel Locking: Sometimes the hid-logitech-dj driver prevents user-space scripts from writing to the device.
 
-Reboot Persistence: The "Unlock" command is volatile and must be re-sent after a device power cycle or system reboot. Use the provided udev rules to automate this.
+Reboot Persistence: The "Unlock" command is volatile and must be re-sent after a device power cycle or system reboot.
+Use the provided [udev rules](drivers/linux/udev_rules.md) to automate this.
 
 > [!IMPORTANT]
 > This project is an independent research effort and is not affiliated with Logitech.
