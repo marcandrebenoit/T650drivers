@@ -5,7 +5,7 @@ This method leverages the HID++ notifications the T650 sends once it is in "Raw 
 
 ## Prerequisites
 - [**Solaar**](https://github.com/pwr-Solaar/Solaar) installed (Ubuntu: `sudo apt install solaar`).
-- T650 must be in "Advanced" mode (Unlock Key A must have been sent).
+- T650 must be in [Advanced mode](advanced_mode.md) (Unlock Key A must have been sent).
 
 ## Step-by-Step Rule Setup (see all steps images in folder)
 1. Open the **Solaar Rule Editor**.
