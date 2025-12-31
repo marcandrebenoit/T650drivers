@@ -1,0 +1,4 @@
+- Rule:
+  - Feature: TOUCHPAD RAW XY
+  - TestBytes: [0, 0x0C]  # This matches the '0C' we saw in your 3-finger logs
+  - KeyPress: Super_L
