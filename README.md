@@ -2,8 +2,7 @@
 
 This repository provides the research, diagnostic tools, and driver implementation required to unlock the full 5-finger multi-touch capabilities of the Logitech T650 Rechargeable Touchpad on modern operating systems (Linux and Windows 10/11).
 > [!IMPORTANT]
-> Your T650 needs to be at firmware 038 to use this anything earlier will not work.
-> Firmware 038 is the only firmware version supporting HID++ 2.0. 
+> Your T650 needs to be at [firmware 041.001.00038 to use this](/docs/firmware.md#why-firmware-04100100038-is-required) anything earlier will not work. 
 
 
 ## 1. The Problem
@@ -51,7 +50,7 @@ If successful, you will see a live update of 5-finger coordinates (X, Y) and the
 ### [Linux (Ubuntu 24.04+)](docs/linux_solaar.md) (work in progress,3 fingers click gesture working)
 The T650 can be "tricked" into native mode. By sending the unlock command and power-cycling the device, the kernel re-enumerates it as a Precision Touchpad, enabling the native GNOME Touchpad settings panel.
 
-### [Windows 10/11](docs/windows_setup.md) (work in progress) 
+### [Windows 10/11](docs/windows_setup.md) (work in progress,see windows-experimental branch) 
 Work is ongoing to implement a user-space driver that translates raw HID++ packets into Windows Precision Touchpad (PTP) events or virtual keyboard/mouse shortcuts for gestures.
 
 ## 6. Known Issues & Troubleshooting
