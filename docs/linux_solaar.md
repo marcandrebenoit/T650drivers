@@ -19,6 +19,7 @@ This method leverages the HID++ notifications the T650 sends once it is in "Raw 
 5. **Action:** Add a `Key press` action.
    - **Key:** `Super_L` (or your preferred shortcut).
    - **Type:** `click` (**CRITICAL:** Do not use 'press' or 'depress' as it will jam the key in the 'down' position).
+6. **Save:** Press the Save Changes button at the top to save this custom user-defined rule.
 
 ## Why this works
 Once the T650 is unlocked, it broadcasts its touch state via HID++ notifications.
