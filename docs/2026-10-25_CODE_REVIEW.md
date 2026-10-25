@@ -1,4 +1,4 @@
-# Code Review Findings (2026-10-25)
+# 2026-10-25 Code Review Findings
 
 Static review of all scripts in `tools/`, `drivers/linux/` and the protocol docs.
 No hardware was available, so nothing here was verified on a device.
